@@ -1,6 +1,35 @@
-**README for Call to Order and The Infinite Monkey Theorem Projects**
+**README for Super Sudoku Solver, Call to Order and The Infinite Monkey Theorem Projects**
 
-**Project 3: Call to Order**
+**Project 1: Super Sudoku Solver**
+
+**Overview:**
+The "Super Sudoku Solver" project focuses on implementing a program capable of solving any given 9x9 Sudoku puzzle using a backtracking algorithm. It provides hands-on experience with linear structures, particularly stacks, two-dimensional arrays, and algorithmic problem-solving techniques.
+
+**Learning Goals:**
+- Gain experience with working with linear structures, specifically stacks, for solving Sudoku puzzles.
+- Understand the manipulation of two-dimensional arrays in Java for representing Sudoku grids.
+- Learn to implement a backtracking algorithm to efficiently solve Sudoku puzzles.
+
+**Specifications:**
+The project comprises four classes:
+1. **SudokuPuzzle:** Represents a configuration of a Sudoku puzzle, including starting, solved, or intermediate configurations.
+2. **SudokuSolver:** An object that represents an "expert" capable of solving a given SudokuPuzzle using backtracking.
+3. **SudokuMove:** Represents a single digit placement while solving a Sudoku puzzle.
+4. **SudokuTest:** The main program responsible for reading puzzle files, solving puzzles, and verifying solutions.
+
+**Implementation:**
+- **SudokuPuzzle:** Implements methods to interact with the puzzle grid stored as a two-dimensional array.
+- **SudokuSolver:** Utilizes backtracking algorithm to solve Sudoku puzzles efficiently, determining valid moves to make.
+- **SudokuMove:** Represents digit placements in the Sudoku grid.
+- **SudokuTest:** Handles user input, puzzle solving, and solution verification.
+
+**Testing:**
+The functionality of solving Sudoku puzzles and verifying solutions can be tested by running the main method in SudokuTest, which includes test cases for various puzzle scenarios and solution validations.
+
+**Note:**
+The project offers an opportunity to explore algorithmic problem-solving techniques in the context of solving Sudoku puzzles. The README provides a brief overview of the project's objectives, implementation details, and testing strategies to guide users in understanding and utilizing the provided code effectively.
+
+**Project 2: Call to Order**
 
 **Overview:**
 The "Call to Order" project is focused on extending an ArrayList-like class to support sorting, specifically tailored for managing Bowdoin College student directory information. The project aims to provide hands-on experience with inheritance, interfaces, String methods, comparators, and generics, along with exploring the implementation of inner classes.
@@ -24,7 +53,8 @@ The project involves creating three classes:
 **Testing:**
 The functionality of sorting and directory analysis can be tested by running the main method in DirectorySort, which includes test cases for various sorting criteria.
 
-**Project 2: The Infinite Monkey Theorem**
+
+**Project 3: The Infinite Monkey Theorem**
 
 **Overview:**
 The "Infinite Monkey Theorem" project simulates a "somewhat clever" monkey attempting to write text resembling works of famous authors by mimicking patterns observed in sample texts. The algorithm used involves analyzing character probability distributions to generate random text that resembles the input text.
