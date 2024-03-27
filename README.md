@@ -78,4 +78,4 @@ The implementation involves analyzing input text files to determine character pr
 The program can be tested by providing input text files of various lengths and complexities to observe how accurately the generated text resembles the original. Additionally, testing can ensure proper functionality of file I/O and error handling for invalid inputs.
 
 **Note:**
-Both projects offer valuable opportunities to practice core Java concepts and algorithms while addressing specific problem domains. The README provides a brief overview of each project's objectives, implementation details, and testing strategies to guide users in understanding and utilizing the provided code effectively.
+All three projects offered valuable opportunities for me to practice core Java concepts and algorithms while addressing specific problem domains through my Data Structures course. The README provides a brief overview of each project's objectives, implementation details, and testing strategies to guide users in understanding and utilizing the provided code effectively.
