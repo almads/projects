@@ -29,6 +29,7 @@ The functionality of solving Sudoku puzzles and verifying solutions can be teste
 **Note:**
 The project offers an opportunity to explore algorithmic problem-solving techniques in the context of solving Sudoku puzzles. The README provides a brief overview of the project's objectives, implementation details, and testing strategies to guide users in understanding and utilizing the provided code effectively.
 
+
 **Project 2: Call to Order**
 
 **Overview:**
