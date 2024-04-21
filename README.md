@@ -5,11 +5,6 @@
 **Overview:**
 The "Super Sudoku Solver" project focuses on implementing a program capable of solving any given 9x9 Sudoku puzzle using a backtracking algorithm. It provides hands-on experience with linear structures, particularly stacks, two-dimensional arrays, and algorithmic problem-solving techniques.
 
-**Learning Goals:**
-- Gain experience with working with linear structures, specifically stacks, for solving Sudoku puzzles.
-- Understand the manipulation of two-dimensional arrays in Java for representing Sudoku grids.
-- Learn to implement a backtracking algorithm to efficiently solve Sudoku puzzles.
-
 **Specifications:**
 The project comprises four classes:
 1. **SudokuPuzzle:** Represents a configuration of a Sudoku puzzle, including starting, solved, or intermediate configurations.
@@ -35,11 +30,6 @@ The project offers an opportunity to explore algorithmic problem-solving techniq
 **Overview:**
 The "Call to Order" project is focused on extending an ArrayList-like class to support sorting, specifically tailored for managing Bowdoin College student directory information. The project aims to provide hands-on experience with inheritance, interfaces, String methods, comparators, and generics, along with exploring the implementation of inner classes.
 
-**Learning Goals:**
-- Extend an ArrayList-like class to support sorting
-- Gain experience with inheritance, interfaces, String methods, comparators, and generics
-- Explore the implementation of inner classes
-
 **Specifications:**
 The project involves creating three classes:
 1. **SortableArrayList:** A class supporting sorting, extending from a SimpleArrayList class, provided but not to be modified.
@@ -59,11 +49,6 @@ The functionality of sorting and directory analysis can be tested by running the
 
 **Overview:**
 The "Infinite Monkey Theorem" project simulates a "somewhat clever" monkey attempting to write text resembling works of famous authors by mimicking patterns observed in sample texts. The algorithm used involves analyzing character probability distributions to generate random text that resembles the input text.
-
-**Learning Goals:**
-- Understand character probability distributions
-- Implement text generation based on probability analysis
-- Gain experience with file I/O in Java
 
 **Implementation:**
 The implementation involves analyzing input text files to determine character probability distributions at different levels (up to a specified depth). The program then generates random text by selecting characters based on the observed probabilities.
